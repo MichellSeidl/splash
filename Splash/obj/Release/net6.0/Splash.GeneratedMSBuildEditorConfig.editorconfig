@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Splash
+build_property.RootNamespace = Splash
+build_property.ProjectDir = C:\Users\Miche\Downloads\TESTE\SPLASH\Splash\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Miche\Downloads\TESTE\SPLASH\Splash
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Views/Template.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Views/_Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcX0hvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Views/_Instructions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcX0luc3RydWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Views/_MySplash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcX015U3BsYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Views/_Support.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcX1N1cHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miche/Downloads/TESTE/SPLASH/Splash/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qf8rz33n8w
