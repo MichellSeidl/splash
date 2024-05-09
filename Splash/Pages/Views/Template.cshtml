@@ -1,0 +1,41 @@
+﻿@page
+@{
+    ViewData["Title"] = "Splash";
+}
+
+<input id="current_page" type="hidden" value="i_home" />
+<input id="displayed_page" type="hidden" value="pv_home" />
+
+<div class="row">
+
+    <div class="col-1 lateral-menu d-flex flex-column justify-content-around align-items-center px-4">
+        <div id="i_home" class="rounded-circle bg-menu-icon d-flex justify-content-center align-items-center active-page" onclick="switchPages(this.id, 'pv_home')">
+            <span class="material-icons menu-icon">home</span>
+        </div>
+        <div id="i_dash" class="rounded-circle bg-menu-icon d-flex justify-content-center align-items-center" onclick="switchPages(this.id, 'pv_mysplash')">
+            <span class="material-icons menu-icon">pie_chart</span>
+        </div>
+        <div id="i_train" class="rounded-circle bg-menu-icon d-flex justify-content-center align-items-center" onclick="switchPages(this.id, 'pv_instructions')">
+            <span class="material-icons menu-icon">menu_book</span>
+        </div>
+        <div id="i_info" class="rounded-circle bg-menu-icon d-flex justify-content-center align-items-center" onclick="switchPages(this.id, 'pv_support')">
+            <span class="material-icons menu-icon">info</span>
+        </div>
+    </div>
+
+    <div class="col-11 p-0">
+        <div id="pv_home" class="">
+            <partial name="_Home.cshtml" />
+        </div>
+        <div id="pv_mysplash" class="d-none">
+            <partial name="_MySplash.cshtml" />
+        </div>
+        <div id="pv_instructions" class="d-none">
+            <partial name="_Instructions.cshtml" />
+        </div>
+        <div id="pv_support" class="d-none">
+            <partial name="_Support.cshtml" />
+        </div>
+    </div>
+
+</div>

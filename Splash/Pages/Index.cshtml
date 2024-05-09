@@ -1,0 +1,39 @@
+﻿@page
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="upper mx-lg-3">
+	<div class="titsub">
+		<img src="~/assets/titulo.svg">
+	</div>
+</div>
+<div class="middle mx-lg-3">
+	<form>
+		<div id="div_user" class="user magic-trick">
+			<div class="form-floating my-2 col-5">
+				<input type="text" class="form-control login-input" name="username" id="username" placeholder="Usuário">
+				<label for="username">Usuário</label>
+				<div id="valid_user_feed" class="valid-feedback"></div>
+				<div id="invalid_user_feed" class="invalid-feedback"></div>
+			</div>
+		</div>
+		<div id="div_pass" class="password magic-trick">
+			<div class="form-floating mb-1 col-5">
+				<input type="password" class="form-control login-input" name="password" id="password" placeholder="Senha">
+				<label for="password">Senha</label>
+				<div id="valid_pass_feed" class="valid-feedback"></div>
+				<div id="invalid_pass_feed" class="invalid-feedback"></div>
+			</div>
+		</div>
+		<div class="col-5 d-flex justify-content-center mb-1 mt-3">
+			<button id="btn_login" class="btn btn-primary high-z-index w-100" onclick="JAVASCRIPT:login()">Fazer Login</button>
+		</div>
+		<div id="div_frgt" class="frgtpsswrd col-5 d-flex justify-content-center">
+			<a class="link-primary high-z-index" onclick="alert('not workin yet')">esqueci minha senha</a>
+		</div>
+	</form>
+</div>
+<div class="waves position-absolute bottom-0">
+	<img src="~/assets/waves.svg">
+</div>

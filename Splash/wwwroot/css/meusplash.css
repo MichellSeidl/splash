@@ -1,0 +1,63 @@
+.body{
+	display: flex;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+
+.pagina{
+	display: flex;
+	padding: 0px 15px;
+	align-items: flex-start;
+	align-self: stretch;
+}
+
+.pagina p{
+	color: rgba(0, 0, 0, 0.50);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.monitoramento{
+	display: flex;
+	padding: 75px 20px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 25px;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+
+.monitores{
+	display: flex;
+	flex-direction:column;
+	align-items: flex-start;
+	gap: 25px;
+}
+
+h1{
+	color: #000;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+p{
+	color: #000;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
