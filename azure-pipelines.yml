@@ -37,5 +37,5 @@ steps:
   inputs:
     azureSubscription: 'SPLASH_EC8-AzureDevOps'
     appType: 'webAppLinux'
-    appName: 'ec8-splash'
+    appName: 'ec8-splash-dev'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
