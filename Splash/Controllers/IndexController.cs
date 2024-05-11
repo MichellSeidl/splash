@@ -18,7 +18,7 @@ namespace Splash.Controllers
 			if (user.username != "michell")
 				return Json(new { isValid = false });
 
-            if (user.password != "1234")
+            if (user.password != "12345")
                 return Json(new { isValid = false });
 
 
