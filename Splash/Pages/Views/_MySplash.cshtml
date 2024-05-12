@@ -5,11 +5,62 @@
 <div class="pagina">
     <p>Meu Splash</p>
 </div>
-<div class="monitoramento">
-    <h1>Monitoramento</h1>
-    <div class="monitores">
-        <img src="~/assets/monitor.svg">
-        <img src="~/assets/monitor.svg">
-        <img src="~/assets/monitor.svg">
+<main>
+		<div class="monitoramento">
+			<h1>Monitoramento</h1>
+			<div class="monitores">
+				<div class="cardSplash">
+					<div class="tituloCard">
+						KIT - UBATUBA/SP
+					</div>
+					<div class="medidorCard">
+						<img src="~/assets/monitor.svg">
+					</div>
+					<div class="dadosFrame">
+						pH atual:
+						<div class="dados show">
+							teste
+						</div>
+					</div>
+					<div class="dadosFrame">
+						status:
+						<div class="dados show">
+							teste
+						</div>
+					</div>
+					<div class="dadosFrame">
+						cargas:
+						<div class="dados show">
+							teste
+						</div>
+					</div>
+					<div class="dadosFrame">
+						ultima ativação:
+						<div class="dados show">
+							teste
+						</div>
+					</div>
+					<div class="dadosFrame">
+						próxima ativação:
+						<div class="dados show">
+							teste
+						</div>
+					</div>
+					<a role="button" class="acoesFrame">AÇÕES</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Alterar data do próxima ativação:</p>
+            <input type="text" id="dateInput" placeholder="__/__/____">
+            <button onclick="submitDate()">Salvar</button>
+            <button onclick="closeModal()">Fechar</button>
+            <button onclick="resetDate()">Limpar</button>
+        </div>
     </div>
-</div>
+	
+	<script src="~/js/meusplash.js"></script>
